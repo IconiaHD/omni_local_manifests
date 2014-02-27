@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <manifest>
+
+	 <remote name="a200_vendor" fetch="https://github.com/" />
+	 <project path="vendor/acer/" name="IconiaHD/vendor_acer_a200" remote="a200_vendor" revision="omni-4.4"/>
+
+	</manifest>
