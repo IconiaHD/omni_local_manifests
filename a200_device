@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
    <manifest>
 
-	 <remote name="a200_device" fetch="https://github.com/" />
-	 <project path="device/acer/" name="IconiaHD/device_acer_a200" remote="a200_device" revision="omni-4.4"/>
+	 <remote name="a200_device" fetch="https://github.com/IconiaHD" />
+	 <project path="device/acer/a200" name="device_acer_a200" remote="a200_device" revision="omni-4.4"/>
 
-	</manifest>
+   </manifest>
