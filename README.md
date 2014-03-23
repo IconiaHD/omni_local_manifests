@@ -12,11 +12,11 @@ Put the files 'a200_device', 'a200_kernel' & 'a200_vendor' into '.repo/local_man
 
 mkdir -p .repo/local_manifests
 
-curl https://raw.github.com/IconiaHD/omni_local_manifests/master/a200_device > .repo/local_manifests/a200_device.xml
+curl https://raw.github.com/IconiaHD/omni_local_manifests/master/a200_device.xml > .repo/local_manifests/a200_device.xml
 
-curl https://raw.github.com/IconiaHD/omni_local_manifests/master/a200_kernel > .repo/local_manifests/a200_kernel.xml
+curl https://raw.github.com/IconiaHD/omni_local_manifests/master/a200_kernel.xml > .repo/local_manifests/a200_kernel.xml
 
-curl https://raw.github.com/IconiaHD/omni_local_manifests/master/a200_vendor > .repo/local_manifests/a200_vendor.xml
+curl https://raw.github.com/IconiaHD/omni_local_manifests/master/a200_vendor.xml > .repo/local_manifests/a200_vendor.xml
 
 
 
