@@ -10,7 +10,7 @@ Yes all the source code is available on Github.
 
 These are the steps to build this rom.
 
-- Install a suitable OS. You can use a virtual machine running Ubuntu 12.10 64-bit, or a physical one : both are supported.
+- Install a suitable OS. You can use a virtual machine running Ubuntu 12.04 64-bit, or a physical one : both are supported.
 
 - Prepare the system, do steps 1, 2 and 5 of this guide, to configure your development machine :
 
