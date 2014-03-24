@@ -6,11 +6,36 @@ Local manifests for building Omnirom for Acer A200
 How to use :
 ------------
 
-Put the files 'a200_device', 'a200_kernel' & 'a200_vendor' into '.repo/local_manifests/' directory as follow :
+Yes all the source code is available on Github.
+
+These are the steps to build this rom.
+
+- Install a suitable OS. You can use a virtual machine running Ubuntu 12.10 64-bit, or a physical one : both are supported.
+
+- Prepare the system, do steps 1, 2 and 5 of this guide, to configure your development machine :
+
+[url=http://forum.xda-developers.com/showthread.php?t=1762641][Tutorial] Compile JB on Ubuntu - xda-developers[/url]
+
+WARNING : To have success when building ROMs from repository, it's essential tu use SUN Java-6 JRE (not 1.7, or later)
+If you don't use this one, you'll have unpredictable errors, like C header files malformed.
+
+It's recommanded to have a PATH pointing the right Java JRE at first position, in your environment !
+
+If you wish to install the right JRE on your Ubuntu 64 bits machine, you can download & execute this :
+
+[url=http://domi.dambrain.free.fr/Android/Acer_A200/KitKat/jdk-6u38-linux-x64.bin]SUN JRE 1.6 [/url]
 
 
+Then run these commands:
 
-mkdir -p .repo/local_manifests
+[CODE]
+mkdir YOUR_ WORKING_DIR
+
+cd YOUR_WORKING_DIR
+
+repo init -u git://github.com/omnirom/android.git -b android-4.4
+
+mkdir .repo/local_manifests
 
 curl https://raw.github.com/IconiaHD/omni_local_manifests/master/a200_device.xml > .repo/local_manifests/a200_device.xml
 
@@ -18,6 +43,20 @@ curl https://raw.github.com/IconiaHD/omni_local_manifests/master/a200_kernel.xml
 
 curl https://raw.github.com/IconiaHD/omni_local_manifests/master/a200_vendor.xml > .repo/local_manifests/a200_vendor.xml
 
+repo sync
 
+[/CODE]
 
-and use 'repo sync' command to fetch specifics A200 components
+The sync will take a while and download something like 15 GB of source code.
+
+Finally build the rom with these commands:
+
+[CODE]
+ source build/envsetup.sh
+
+ brunch a200
+
+[/CODE]
+
+If all goes well this will create a zip file into 'out' folder, that can be flashed on the tablet!
+
