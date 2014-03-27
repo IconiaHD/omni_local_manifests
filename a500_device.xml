@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <manifest>
+
+	 <remote name="a500_device" fetch="https://github.com/IconiaHD" />
+	 <project path="device/acer/a500" name="device_acer_a500" remote="a500_device" revision="omni-4.4"/>
+
+   </manifest>
