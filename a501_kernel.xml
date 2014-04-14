@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <manifest>
+
+	 <remote name="a501_kernel" fetch="https://github.com/IconiaHD" />
+	 <project path="kernel/acer/a501" name="kernel_acer_a200" remote="a501_kernel" revision="omni-4.4"/>
+
+   </manifest>
