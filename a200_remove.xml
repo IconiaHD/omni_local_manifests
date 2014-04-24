@@ -1,0 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+
+<remove-project name="android_packages_apps_OpenDelta" />
+<remove-project name="platform/packages/apps/VideoEditor" />
+<remove-project name="platform/packages/apps/VoiceDialer" />
+</manifest>
