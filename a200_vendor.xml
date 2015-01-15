@@ -2,6 +2,6 @@
    <manifest>
 
 	 <remote name="a200_vendor" fetch="https://github.com/IconiaHD" />
-	 <project path="vendor/acer/a200" name="vendor_acer_a200" remote="a200_vendor" revision="omni-4.4"/>
+	 <project path="vendor/acer/a200" name="vendor_acer_a200" remote="a200_vendor" revision="omni-5.X"/>
 
    </manifest>
