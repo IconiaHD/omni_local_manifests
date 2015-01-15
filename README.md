@@ -1,7 +1,7 @@
 omni_local_manifests
 ====================
 
-Local manifests for building Omnirom for Acer A200
+Local manifests for building Omnirom for Acer A200 (Lollipop update)
 
 How to use :
 ------------
@@ -34,15 +34,15 @@ mkdir YOUR_ WORKING_DIR
 
 cd YOUR_WORKING_DIR
 
-repo init -u git://github.com/omnirom/android.git -b android-4.4
+repo init -u git://github.com/omnirom/android.git -b android-5.0
 
 mkdir .repo/local_manifests
 
-curl https://raw.github.com/IconiaHD/omni_local_manifests/master/a200_device.xml > .repo/local_manifests/a200_device.xml
+curl https://raw.github.com/IconiaHD/omni_local_manifests/omni-5.X/a200_device.xml > .repo/local_manifests/a200_device.xml
 
-curl https://raw.github.com/IconiaHD/omni_local_manifests/master/a200_kernel.xml > .repo/local_manifests/a200_kernel.xml
+curl https://raw.github.com/IconiaHD/omni_local_manifests/omni-5.X/a200_kernel.xml > .repo/local_manifests/a200_kernel.xml
 
-curl https://raw.github.com/IconiaHD/omni_local_manifests/master/a200_vendor.xml > .repo/local_manifests/a200_vendor.xml
+curl https://raw.github.com/IconiaHD/omni_local_manifests/omni-5.X/a200_vendor.xml > .repo/local_manifests/a200_vendor.xml
 
 repo sync
 
