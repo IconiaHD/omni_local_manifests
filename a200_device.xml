@@ -2,6 +2,6 @@
    <manifest>
 
 	 <remote name="a200_device" fetch="https://github.com/IconiaHD" />
-	 <project path="device/acer/a200" name="device_acer_a200" remote="a200_device" revision="omni-4.4"/>
+	 <project path="device/acer/a200" name="device_acer_a200" remote="a200_device" revision="omni-5.X"/>
 
    </manifest>
