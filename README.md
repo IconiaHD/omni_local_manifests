@@ -44,6 +44,8 @@ curl https://raw.github.com/IconiaHD/omni_local_manifests/omni-5.X/a200_kernel.x
 
 curl https://raw.github.com/IconiaHD/omni_local_manifests/omni-5.X/a200_vendor.xml > .repo/local_manifests/a200_vendor.xml
 
+curl https://raw.github.com/IconiaHD/omni_local_manifests/omni-5.X/a200_katkiss.xml > .repo/local_manifests/a200_katkiss.xml
+
 repo sync
 
 
