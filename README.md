@@ -17,14 +17,11 @@ These are the steps to build this rom.
 http://forum.xda-developers.com/showthread.php?t=1762641
 Tutorial To Compile JB on Ubuntu - xda-developers
 
-WARNING : To have success when building ROMs from repository, it's essential tu use SUN Java-6 JRE (not 1.7, or later)
+WARNING : To have success when building ROMs from repository, it's required to use Java-7 JRE (1.7)
 If you don't use this one, you'll have unpredictable errors, like C header files malformed.
 
 It's recommanded to have a PATH pointing the right Java JRE at first position, in your environment !
 
-If you wish to install the right JRE on your Ubuntu 64 bits machine, you can download & execute this :
-
-    http://domi.dambrain.free.fr/Android/Acer_A200/KitKat/jdk-6u38-linux-x64.bin
 
 
 Then run these commands:
