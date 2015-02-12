@@ -35,16 +35,9 @@ repo init -u git://github.com/omnirom/android.git -b android-5.0
 
 mkdir .repo/local_manifests
 
-curl https://raw.github.com/IconiaHD/omni_local_manifests/omni-5.X/a200_device.xml > .repo/local_manifests/a200_device.xml
-
-curl https://raw.github.com/IconiaHD/omni_local_manifests/omni-5.X/a200_kernel.xml > .repo/local_manifests/a200_kernel.xml
-
-curl https://raw.github.com/IconiaHD/omni_local_manifests/omni-5.X/a200_vendor.xml > .repo/local_manifests/a200_vendor.xml
-
-curl https://raw.github.com/IconiaHD/omni_local_manifests/omni-5.X/a200_katkiss.xml > .repo/local_manifests/a200_katkiss.xml
+curl https://raw.github.com/IconiaHD/omni_local_manifests/omni-5.X/a200_manifest.xml > .repo/local_manifests/a200_manifest.xml
 
 repo sync
-
 
 
 The sync will take a while and download something like 15 GB of source code.
