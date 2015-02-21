@@ -1,7 +1,7 @@
-omni_local_manifests
-====================
+omni_local_manifests, branch Omni-5.x
+=====================================
 
-Local manifests for building Omnirom for Acer A200 (Lollipop update)
+Local manifests for building Omnirom 5.x for Acer A200 (A500/A501 are not yet supported)
 
 How to use :
 ------------
