@@ -1,7 +1,7 @@
-omni_local_manifests
-====================
+omni_local_manifests, branch Omni-4.4
+=====================================
 
-Local manifests for building Omnirom for Acer A200 / A500 / A501.
+Local manifests for building Omnirom 4.4 for Acer A200 / A500 / A501.
 
 These instructions are written for the A200. To build for A500/501 simply change "a200" to your device in the commands.
 
